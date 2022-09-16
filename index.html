@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laravel News</title>
+    <meta name="description" content="Laravel News is the official blog of Laravel. Every day bringing you the latest news, tutorials, and packages for the framework.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Laravel News">
+    <meta property="og:description" content="Laravel News is the official blog of Laravel. Every day bringing you the latest news, tutorials, and packages for the framework.">
+    <meta property="og:url" content="https://laravel-news.com">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@laravelnews">
+    <meta name="twitter:title" content="Laravel News">
+    <meta name="twitter:description" content="Laravel News is the official blog of Laravel. Every day bringing you the latest news, tutorials, and packages for the framework.">
+    <link href="https://laravel-news.com/" rel="home">
+    <link href="https://laravel-news.com/" rel="canonical">
+    <link rel="alternate" type="application/rss+xml" title="Laravel News » Feed" href="https://feed.laravel-news.com/">
+    <link rel="alternate" title="Laravel News Feed" type="application/json" href="https://laravel-news.com/feed/json">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://laravel-news.com/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://laravel-news.com/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://laravel-news.com/favicon-16x16.png">
+    <link rel="manifest" href="https://laravel-news.com/site.webmanifest">
+
+    <!-- INTER FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ICONSCOUT -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="container nav__container">
+            <nav class="nav__menu">
+                <a href="#" class="nav__logo">
+                    <img src="img/logo.png" alt="">
+                    <span>Laravel News</span>
+                </a>
+                <ul class="nav__links">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Podcast</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                </ul>
+            </nav>
+            <ul class="nav__secundario">
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Links</a></li>
+
+                <div class="nav__search">
+                    <input type="search" name="Search" placeholder="Search">
+                    <i class="uil uil-search-alt"></i>
+                </div>
+                <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            </ul>
+            <div class="nav__mobile">
+                <div class="nav__mobile_pop">
+                    <div class="nav__mobile_top">
+                        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+                    </div>
+                    <div class="nav__mobile_menu">
+                        <a href="#" class="nav__logo">
+                            <img src="img/logo.png" alt="">
+                            <span>Laravel News</span>
+                        </a>
+                        <div class="nav__search">
+                            <input type="search" name="Search" placeholder="Search">
+                            <i class="uil uil-search-alt"></i>
+                        </div>
+                        <ul class="nav__links">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Packages</a></li>
+                            <li><a href="#">Podcast</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav__mobile_socials">
+                        <ul class="nav__mobile_slinks">
+                            <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                            <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+                            <li><a href="#"><i class="uil uil-instagram"></i></a></li>
+                        </ul>
+                        <ul class="nav__mobile_flinks">
+                            <li><a href="#">JOBS</a></li>
+                            <li><a href="#">PARTNERS</a></li>
+                            <li><a href="#">LINKS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="container content feature__container">
+                <article class="feature__destaque">
+                    <div class="feature__left">
+                        <div class="feature__info">
+                            <span class="tag tutorials">Tutorials</span>
+                            <small>July 20th, 2022</small>
+                        </div>
+                        <div class="feature__text">
+                            <h2 class="link-under-white">Working with Data in API Integrations</h2>
+                            <p>Working with third party APIs can be frustrating, we get plain old array - and we send data as arrays too. What if I told you it didn't have to be this way?</p>
+                        </div>
+                    </div>
+                    <div class="feature__right">
+                        <div class="feature__img">
+                            <img src="./img/header.jpg">
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="container content cards">
+                <article class="card">
+                    <div class="card__img">
+                        <img src="./img/postimg1.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <div class="tag news">News</div>
+                        <small>August 17th, 2022</small>
+                    </div>
+                    <div class="card__title">
+                        <h2 class="link-under-white">Laravel 9.25 Released</h2>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__img">
+                        <img src="./img/postimg2.png" alt="">
+                    </div>
+                    <div class="card__info">
+                        <div class="tag tutorials">Tutorials</div>
+                        <small>August 12th, 2022</small>
+                    </div>
+                    <div class="card__title">
+                        <h2 class="link-under-white">Zero Hassle CLI Application with Laravel Zero</h2>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__img">
+                        <img src="./img/postimg3.png" alt="">
+                    </div>
+                    <div class="card__info">
+                        <div class="tag sponsor">Sponsor</div>
+                        <small>August 15th, 2022</small>
+                    </div>
+                    <div class="card__title">
+                        <h2 class="link-under-white">What Makes Automated Application Monitoring so Important?</h2>
+                    </div>
+                </article>
+            </div>
+
+            <div class="container content interacts">
+                <div class="newsletter">
+                    <h2>Newsletter</h2>
+                    <p>Join 33,000+ others and never miss out on new tips, tutorials, and more.</p>
+                    <div class="newsletter__form-group">
+                        <input type="email" name="email" placeholder="Your email address">
+                        <button type="submit" class="btn btn-primary">
+                            <span>Subscribe</span>
+                            <svg class="arrow-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 12.0002H15.17L11.29 15.8802C10.9 16.2702 10.9 16.9102 11.29 17.3002C11.68 17.6902 12.31 17.6902 12.7 17.3002L18.29 11.7102C18.68 11.3202 18.68 10.6902 18.29 10.3002L12.71 4.70021C12.32 4.31021 11.69 4.31021 11.3 4.70021C10.91 5.09021 10.91 5.72021 11.3 6.11021L15.17 10.0002H4C3.45 10.0002 3 10.4502 3 11.0002C3 11.5502 3.45 12.0002 4 12.0002Z" fill="current"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="jobs">
+                    <h2>Laravel Jobs</h2>
+                    <p>The official Laravel job board connecting the best jobs with top talent.</p>
+
+                    <a href="#" class="btn btn-primary">
+                        <span>View All Jobs</span>
+                        <svg class="arrow-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 12.0002H15.17L11.29 15.8802C10.9 16.2702 10.9 16.9102 11.29 17.3002C11.68 17.6902 12.31 17.6902 12.7 17.3002L18.29 11.7102C18.68 11.3202 18.68 10.6902 18.29 10.3002L12.71 4.70021C12.32 4.31021 11.69 4.31021 11.3 4.70021C10.91 5.09021 10.91 5.72021 11.3 6.11021L15.17 10.0002H4C3.45 10.0002 3 10.4502 3 11.0002C3 11.5502 3.45 12.0002 4 12.0002Z" fill="current"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+    </header>
+
+    <main>
+        <section class="news_container">
+            <div class="container content">
+                <h2>Latest Laravel News</h2>
+                <div class="news__laravel">
+                    <article class="card">
+                        <div class="card__img">
+                            <img src="./img/postimg1.jpg" alt="">
+                        </div>
+                        <div class="card__info">
+                            <div class="tag news">News</div>
+                            <small>August 17th, 2022</small>
+                        </div>
+                        <div class="card__title">
+                            <h4 class="link-under-black">Laravel 9.25 Released</h4>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__img">
+                            <img src="./img/postimg4.png" alt="">
+                        </div>
+                        <div class="card__info">
+                            <div class="tag package">Packages</div>
+                            <small>August 17th, 2022</small>
+                        </div>
+                        <div class="card__title">
+                            <h4 class="link-under-black">Profile Your Laravel Application With Xhprof</h4>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__img">
+                            <img src="./img/postimg2.png" alt="">
+                        </div>
+                        <div class="card__info">
+                            <div class="tag tutorials">Tutorials</div>
+                            <small>August 17th, 2022</small>
+                        </div>
+                        <div class="card__title">
+                            <h4 class="link-under-black">Zero Hassle CLI Application with Laravel Zero</h4>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__img">
+                            <img src="./img/postimg1.jpg" alt="">
+                        </div>
+                        <div class="card__info">
+                            <div class="tag news">News</div>
+                            <small>August 17th, 2022</small>
+                        </div>
+                        <div class="card__title">
+                            <h4 class="link-under-black">Laravel 9.24 Released</h4>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__img">
+                            <img src="./img/postimg5.png" alt="">
+                        </div>
+                        <div class="card__info">
+                            <div class="tag tutorials">Tutorials</div>
+                            <small>August 17th, 2022</small>
+                        </div>
+                        <div class="card__title">
+                            <h4 class="link-under-black">JSON API Resources in Laravel</h4>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__img">
+                            <img src="./img/postimg6.png" alt="">
+                        </div>
+                        <div class="card__info">
+                            <div class="tag tutorials">Tutorials</div>
+                            <small>August 17th, 2022</small>
+                        </div>
+                        <div class="card__title">
+                            <h4 class="link-under-black">Building your own Laravel Packages</h4>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="partners_container">
+            <div class="container content">
+                <h2>Laravel News Partners</h2>
+
+                <div class="partners">
+                    <div class="partner">
+                        <img src="./img/partner1.png">
+                        <p>The drop-in ready Laravel CMS you're been waiting for. Go full-stack or headless, flat file or database – it's up to you.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner2.png">
+                        <p>You're less than 4 minutes away from better performance insight.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner3.png">
+                        <p>We help companies turn great ideas into amazing apps, products, and services.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner4.png">
+                        <p>A Opensource Laravel eCommerce platform to build and scale your business.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner5.png">
+                        <p>Simple Code Execution Monitoring, built for developers. Identify bugs and bottlenecks in your code before your users do.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner6.png">
+                        <p>Voice, messaging, meetings, and more at one low monthly price.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="img/partner7.png">
+                        <p>Get quick access to 4 to 6 years of skilled Laravel developers. Connect with us today to schedule an interview. We sign an NDA. Plan and Price is a click away.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner8.png">
+                        <p>The next generation time-tracking and billing software that helps your agency plan and forecast a profitable future.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner9.png">
+                        <p>Practical screencasts for developers.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner10.png">
+                        <p>Oh Dear monitors uptime, SSL certificates, broken links, scheduled tasks, Laravel application health, DNS, domain expiry and more. We send notifications when something's wrong. All that paired with a developer friendly API and kick-ass documentation.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner11.svg">
+                        <p>Running an old Laravel version? Instant, automated Laravel upgrades and code modernization to keep your applications fresh.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner12.png">
+                        <p>Online, open source and free accounting software built with modern technologies. Track your income and expenses with ease.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner13.png">
+                        <p>Easy, affordable load testing and stress tests for websites, APIs and databases.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner14.png">
+                        <p>Ultra-fast Laravel e-commerce for custom online shops, scalable marketplaces, complex B2B applications and #gigacommerce</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner15.png">
+                        <p>A flexible agency partner that helps you build great quality products on schedule.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner16.png">
+                        <p>Hire highly qualified and vetted Laravel developers on-demand and speed up your development while saving up to 60% of your cost.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner17.png">
+                        <p>Elite software developers on demand. The smartest possible way to acquire a high-performing distributed team.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner18.png">
+                        <p>Providing innovation and stability to ensure your web application succeeds.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner19.png">
+                        <p>Save time and boost your productivity by adding Beyond Code tools to your daily workflow.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner20.png">
+                        <p>Zero-instrumentation, 360 degree coverage of errors, outages and service degradation.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner21.png">
+                        <p>Developer tools, training, and community to help you build the SaaS of your dreams. Ready to build your next great idea?</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner22.png">
+                        <p>Our team helps founders and companies ideate, build, and launch web & mobile applications people love to use.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner23.png">
+                        <p>Hire Laravel developers on a monthly or fixed cost. 9+ years experience in building Laravel custom applications & online shops.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+
+                    <div class="partner">
+                        <img src="./img/partner24.png">
+                        <p>Automate all your server and database backups. One-click setup, secure storage, quick recovery, and peace of mind.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="tutorials_container">
+            <div class="container content">
+                <h2>Laravel Tutorials</h2>
+
+                <div class="tutorials__cards">
+                    <article class="card">
+                        <div class="card__img">
+                            <img src="./img/postimg2.png" alt="">
+                        </div>
+                        <div class="card__title">
+                            <h4 class="link-under-white">Zero Hassle CLI Application with Laravel Zero</h4>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__img">
+                            <img src="./img/postimg5.png" alt="">
+                        </div>
+                        <div class="card__title">
+                            <h4 class="link-under-white">JSON API Resources in Laravel</h4>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__img">
+                            <img src="./img/postimg6.png" alt="">
+                        </div>
+                        <div class="card__title">
+                            <h4 class="link-under-white">Building your own Laravel Packages</h4>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__img">
+                            <img src="./img/postimg7.jpg" alt="">
+                        </div>
+                        <div class="card__title">
+                            <h4 class="link-under-white">Using Laravel Model Factories in your tests</h4>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__img">
+                            <img src="./img/postimg8.png" alt="">
+                        </div>
+                        <div class="card__title">
+                            <h4 class="link-under-white">Add Useful Info to the Laravel About Command</h4>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__img">
+                            <img src="./img/postimg9.png" alt="">
+                        </div>
+                        <div class="card__title">
+                            <h4 class="link-under-white">Logging external HTTP Requests with Laravel Telescope</h4>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="community">
+            <div class="container content">
+                <h2>Community Links</h2>
+
+                <div class="community__cards">
+
+                    <article class="community__card">
+                        <div class="card__top">
+                            <span class="tag tips">Tips & Tutorials</span>
+                            <time>7 hours ago</time>
+                        </div>
+                        <div class="card__body">
+                            <a href="#">
+                                <h4 class="link-under-black">Make a useful commit message from Composer Update output</h4>
+                            </a>
+                        </div>
+                        <div class="card__footer">
+                            <span>Added by Shawn Hooper</span>
+                        </div>
+                    </article>
+
+                    <article class="community__card">
+                        <div class="card__top">
+                            <span class="tag tips">Tips & Tutorials</span>
+                            <time>7 hours ago</time>
+                        </div>
+                        <div class="card__body">
+                            <a href="#">
+                                <h4 class="link-under-black">Behind the Dev: Luke Downing</h4>
+                            </a>
+                        </div>
+                        <div class="card__footer">
+                            <span>Added by Ashley Allen</span>
+                        </div>
+                    </article>
+
+                    <article class="community__card">
+                        <div class="card__top">
+                            <span class="tag videos">Video</span>
+                            <time>7 hours ago</time>
+                        </div>
+                        <div class="card__body">
+                            <a href="#">
+                                <h4 class="link-under-black">New in Laravel 9.24: Artisan db:show + db:table [VIDEO]</h4>
+                            </a>
+                        </div>
+                        <div class="card__footer">
+                            <span>Added by PovilasKorop2</span>
+                        </div>
+                    </article>
+
+                    <article class="community__card">
+                        <div class="card__top">
+                            <span class="tag tips">Tips & Tutorials</span>
+                            <time>1 day ago</time>
+                        </div>
+                        <div class="card__body">
+                            <a href="#">
+                                <h4 class="link-under-black">6 New Things Added - New In Laravel 9.24.0</h4>
+                            </a>
+                        </div>
+                        <div class="card__footer">
+                            <span>Added by Ashish Dhamala</span>
+                        </div>
+                    </article>
+
+                    <article class="community__card">
+                        <div class="card__top">
+                            <span class="tag videos">Video</span>
+                            <time>1 day ago</time>
+                        </div>
+                        <div class="card__body">
+                            <a href="#">
+                                <h4 class="link-under-black">What is http response in laravel</h4>
+                            </a>
+                        </div>
+                        <div class="card__footer">
+                            <span>Added by Shailesh</span>
+                        </div>
+                    </article>
+
+                    <article class="community__card">
+                        <div class="card__top">
+                            <span class="tag tips">Tips & Tutorials</span>
+                            <time>1 day ago</time>
+                        </div>
+                        <div class="card__body">
+                            <a href="#">
+                                <h4 class="link-under-black">Switch Git Worktree VSCode Extension</h4>
+                            </a>
+                        </div>
+                        <div class="card__footer">
+                            <span>Added by chrisdicarlo</span>
+                        </div>
+                    </article>
+
+                    <article class="community__card">
+                        <div class="card__top">
+                            <span class="tag packs">Packages</span>
+                            <time>1 day ago</time>
+                        </div>
+                        <div class="card__body">
+                            <a href="#">
+                                <h4 class="link-under-black">Laravel Sail Smart Alias for ZSH</h4>
+                            </a>
+                        </div>
+                        <div class="card__footer">
+                            <span>Added by ariaieboy</span>
+                        </div>
+                    </article>
+
+                    <article class="community__card">
+                        <div class="card__top">
+                            <span class="tag tips">Tips & Tutorials</span>
+                            <time>7 hours ago</time>
+                        </div>
+                        <div class="card__body">
+                            <a href="#">
+                                <h4 class="link-under-black">How to Mock Objects in PHPUnit / PEST tests in Laravel</h4>
+                            </a>
+                        </div>
+                        <div class="card__footer">
+                            <span>Added by Tushar</span>
+                        </div>
+                    </article>
+
+                    <article class="community__card">
+                        <div class="card__top">
+                            <span class="tag packs">Packages</span>
+                            <time>2 days ago</time>
+                        </div>
+                        <div class="card__body">
+                            <a href="#">
+                                <h4 class="link-under-black">Making Laravel Nova Tab Translatable.</h4>
+                            </a>
+                        </div>
+                        <div class="card__footer">
+                            <span>Added by Ramiz Kongulov</span>
+                        </div>
+                    </article>
+
+                    <article class="community__card">
+                        <div class="card__top">
+                            <span class="tag packs">Packages</span>
+                            <time>2 days ago</time>
+                        </div>
+                        <div class="card__body">
+                            <a href="#">
+                                <h4 class="link-under-black">Laravel Arkitect</h4>
+                            </a>
+                        </div>
+                        <div class="card__footer">
+                            <span>Added by mortexa</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <div class="container content">
+            <div class="footer__container-top">
+                <div class="footer__left">
+                    <form>
+                        <label for="newsletter">Subscribe to the Email Newsletter</label>
+                        <div class="form__group">
+                            <input type="email" name="newsletter" placeholder="Your email address">
+                            <button type="submit" class="btn btn-footer">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="footer__middle">
+                    <p>Follow Laravel News on</p>
+                    <div class="footer__socials">
+                        <a href="#" class="btn btn-social"><i class="uil uil-facebook-f"></i><span>Facebook</span></a>
+                        <a href="#" class="btn btn-social"><i class="uil uil-twitter-alt"></i><span>Twitter</span></a>
+                        <a href="#" class="btn btn-social"><i class="uil uil-linkedin-alt"></i><span>Linkedin</span></a>
+                        <a href="#" class="btn btn-social"><i class="uil uil-instagram"></i><span>Instagram</span></a>
+                    </div>
+                </div>
+
+                <div class="footer__right">
+                    <p>Design & development by</p>
+                    <a href="https://zaengle.com/" target="_blank">
+                        <svg width="148" height="46" viewBox="0 0 148 46" fill="current" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M54.3348 21.4531L54.8899 25.0112L66.5023 23.7755C66.8083 22.5366 66.9622 21.2654 66.9604 19.9896C66.9604 14.1005 63.5595 10.674 57.6917 10.674C51.8238 10.674 46.7842 14.898 46.7842 23.2672C46.7842 30.208 50.6696 35.0542 57.8238 35.0542C63.5595 35.0542 66.6344 33.0912 66.6344 33.0912L65.7533 29.0249C63.4304 29.8496 60.9936 30.3137 58.5287 30.4008C54.2908 30.4008 52.1939 28.3939 52.1939 23.276C52.1939 16.6419 54.7578 15.0645 57.6917 15.0645C60.467 15.0645 61.8415 16.8172 61.8415 20.0422V20.3051L54.3348 21.4531Z" fill="current"></path>
+                            <path d="M42.8722 20.1562C42.8722 14.3635 38.8193 10.7178 32.4757 10.7178C30.1474 10.6904 27.8255 10.9643 25.5682 11.5328L26.1233 16.0987C27.9885 15.6687 29.8922 15.425 31.8061 15.3713C35.4889 15.3713 37.1718 16.8348 37.2599 19.6654V29.6647L41.4096 35.0543L45.7356 32.5829L42.8986 27.5176L42.8722 20.1562Z" fill="current"></path>
+                            <path d="M31.5948 30.4096C28.934 30.4096 28.1939 28.9198 28.1939 27.1671C28.1885 26.3321 28.4475 25.5165 28.934 24.836L34.8988 23.7318V20.1562L26.793 21.2079C25.6459 21.8293 24.6866 22.7444 24.0143 23.8584C23.3421 24.9723 22.9812 26.2447 22.9692 27.5439C22.9692 31.7505 25.5331 35.0368 31.2688 35.0368C33.2241 35.0379 35.1298 34.4244 36.7137 33.2841L34.8988 29.6297C33.867 30.1239 32.7398 30.39 31.5948 30.4096Z" fill="current"></path>
+                            <path d="M20.0352 11.454H0V16.0636H20.0352V11.454Z" fill="current"></path>
+                            <path d="M7.0837 29.2528L8.81057 27.7893L17.2863 18.7979L10.7137 18.3948L0 29.6647V34.2744H20.0352V29.6647H7.0837V29.2528Z" fill="current"></path>
+                            <path d="M103.489 26.9217C108.159 26.9217 112.855 24.1612 112.855 19.0345C112.855 15.3889 110.432 12.7861 107.568 11.5066C107.85 9.85029 108.123 7.86096 108.176 7.1774L103.559 6.85315V14.977C106.59 15.0208 107.612 16.8962 107.612 19.0345C107.612 21.462 106.405 22.908 103.507 22.908C100.608 22.908 99.1013 21.4445 99.1013 19.0345C99.0198 18.2055 99.2312 17.374 99.6991 16.6831C100.167 15.9922 100.862 15.485 101.665 15.2487L100.687 11.0684C98.4053 11.6205 93.8414 13.8903 93.8414 19.052C93.8502 24.6432 98.326 26.9217 103.489 26.9217Z" fill="current"></path>
+                            <path d="M76.0528 11.454H70.4141V34.2743H76.0528V11.454Z" fill="current"></path>
+                            <path d="M122.74 26.1067V0H117.101V26.7464C117.101 33.2665 118.943 34.8264 125.612 34.8264V29.7085C123.295 29.7085 122.74 28.6131 122.74 26.1067Z" fill="current"></path>
+                            <path d="M139.559 30.4095C135.322 30.4095 133.225 28.4027 133.225 23.2847C133.225 16.6507 135.789 15.0733 138.722 15.0733C141.498 15.0733 142.863 16.826 142.863 20.0422V20.3139L135.366 21.4531L135.921 25.0112L147.533 23.7755C147.842 22.5369 147.998 21.2657 148 19.9896C148 14.1005 144.599 10.674 138.722 10.674C132.846 10.674 127.841 14.898 127.841 23.276C127.841 30.2167 131.727 35.0542 138.881 35.0542C144.617 35.0542 147.692 33.0912 147.692 33.0912L146.811 29.0249C144.478 29.8476 142.033 30.3144 139.559 30.4095Z" fill="current"></path>
+                            <path d="M112.273 31.2597L97.9207 28.3414C97.6231 29.1847 97.4973 30.0784 97.5507 30.9705C97.6056 31.8104 97.8625 32.6248 98.2996 33.3454L109.251 35.2734C109.569 35.8458 109.715 36.4964 109.674 37.1488C109.674 39.5676 107.912 41.3466 104.176 41.3466C100.441 41.3466 98.2115 39.7954 98.2115 37.2803C98.2175 36.9017 98.2499 36.5239 98.3084 36.1498L93.9031 35.4575C93.5195 36.3672 93.3276 37.3455 93.3392 38.3319C93.3392 42.8977 97.7445 46 103.454 46C110.908 46 114.908 41.7585 114.908 36.9648C114.93 35.8777 114.704 34.7998 114.248 33.8118C113.792 32.8237 113.117 31.9512 112.273 31.2597Z" fill="current"></path>
+                            <path d="M82.5286 10.6829C80.2467 10.6829 77.9119 12.5057 77.9119 12.5057L79.022 16.572C79.908 16.1209 80.8754 15.8498 81.8678 15.7745C84.2026 15.7745 85.1982 16.4142 85.1982 18.6051V34.2744H90.8194V17.9829C90.8194 12.8738 86.3436 10.6829 82.5286 10.6829Z" fill="current"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__container-bottom">
+                <div class="footer__links">
+                    <ul class="footer__nav">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Training Resources</a></li>
+                    </ul>
+                    <ul class="footer__navsec">
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Archive</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__copy">
+                    <p>© 2012 - 2022 Laravel News</p>
+                    <p>A division of dotdev inc.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__my">
+            <small>Recreated by Rafael Elias</small>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
